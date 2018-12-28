@@ -1,0 +1,42 @@
+body {
+    background-color: lightskyblue; 
+    /* url(../images/food-q-c-200-175-10.jpg); */
+    /* opacity: 0.1; */
+    /* background-size: cover; */
+}
+
+wordbox {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    width: auto;
+    height: 82px;
+    /* max-width: 80%; */
+    margin: 10% auto;
+    justify-content: center;
+}
+
+.letter {
+    float: left;
+    /* display: inline-block; */
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid grey;
+    width: 40px;
+    height: auto;
+    padding: 3px;
+    margin: 10px 5px;
+}
+
+.summary {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#wins {
+    color: green;
+}
+#losses {
+    color: red;
+}
