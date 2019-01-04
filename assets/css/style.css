@@ -1,14 +1,26 @@
 body {
-    background-color: lightskyblue; 
-    /* url(../images/food-q-c-200-175-10.jpg); */
-    /* opacity: 0.1; */
-    /* background-size: cover; */
+    margin-top: 30px;
+}
+
+body::after {
+    content: "";
+    background: url(../images/food-q-c-200-175-10.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 
 wordbox {
     display: inline-block;
     box-sizing: border-box;
-    border: 2px solid grey;
+    border: 0px;
     width: auto;
     height: 82px;
     /* max-width: 80%; */
@@ -30,13 +42,23 @@ wordbox {
 }
 
 .summary {
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    padding: 10px 0 10px 0;
 }
 #wins {
     color: green;
 }
 #losses {
     color: red;
+}
+
+.words {
+    list-style-type: none;
+}
+
+.wordImg {
+    width: 250px;
+    height: auto;
 }

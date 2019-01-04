@@ -14,23 +14,28 @@
     <!-- my CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <p><h1 id="header">Click Start to Begin</h1></p>
+        <p><h1>Word Guessing Game</h1></p>
     </header>
+    <instructions>
+        <p><h4 id="instructions">Click Start to Begin</h4></p>
+    </instructions>
     <wordbox id="wordBox"></wordbox>
-    <div id="guessedLetters" class="summary">-</div>
+    <div id="guessesLeft" class="summary"></div>
+    <div id="guessedLetters" class="summary"></div>
     <div id="wins" class="summary">Wins: 0</div>
     <div id="losses" class="summary">Losses: 0</div>
 
     <button id="startButton" type="button" class="btn btn-success btn-lg btn-block">Start</button>
 
     <div>
-        <ul id="wordsDone">
-
-        </ul>
+        <ul id="wordsDone"></ul>
     </div>
 
     <script src="assets/javascript/game.js"></script>
