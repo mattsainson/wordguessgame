@@ -1,4 +1,5 @@
 # wordguessgame
+Site: https://mattsainson.github.io/wordguessgame/
 
 This project is a food themed word guessing game. You start by clicking the green button or typing return.
 The game displays boxes for each letter of the word with an asterisk as a placeholder.
